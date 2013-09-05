@@ -1,0 +1,17 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1373953634000 254 7318b015849edb8f9c1bbc77f54fa1090c7c92b7 /Users/rupertdance/AndroidStudioProjects/PayShareProject/PayShare/build/res/all/debug/values-sw720dp-land/values.xml
+1373953634000 9957 1e34016696bb05527bd98da6b3b0267a082442ff /Users/rupertdance/AndroidStudioProjects/PayShareProject/PayShare/build/res/all/debug/drawable-xhdpi/ic_launcher.png
+1373953634000 323 f14a2addd2df77a291de011872153d06f7cef52c /Users/rupertdance/AndroidStudioProjects/PayShareProject/PayShare/build/res/all/debug/values-v11/values.xml
+1374144561000 1802 81b2de11b25929bdb288c1af2a074b4012df29df /Users/rupertdance/AndroidStudioProjects/PayShareProject/PayShare/build/res/all/debug/layout/payment_adapter_row.xml
+1373953634000 337 e8cb73bc064608f5ff80bdbbe789e6f01613a2c8 /Users/rupertdance/AndroidStudioProjects/PayShareProject/PayShare/build/res/all/debug/values-v14/values.xml
+1374144561000 369 66bc83c8c48a616d57b8bb8e3f7b3ba7d2148832 /Users/rupertdance/AndroidStudioProjects/PayShareProject/PayShare/build/res/all/debug/menu/display_purchases.xml
+1374210860000 1439 18fbd7a3b1365ca6a2513541d0fa942330794c53 /Users/rupertdance/AndroidStudioProjects/PayShareProject/PayShare/build/res/all/debug/values/values.xml
+1373953634000 3625 ac7c3148307da74e9d2c3b1ad3dc0a3f765a8fa9 /Users/rupertdance/AndroidStudioProjects/PayShareProject/PayShare/build/res/all/debug/drawable-mdpi/ic_launcher.png
+1373953634000 6680 a39edab54cb6c5f319c9bf0bef09d9d95660c0b1 /Users/rupertdance/AndroidStudioProjects/PayShareProject/PayShare/build/res/all/debug/drawable-hdpi/ic_launcher.png
+1374144561000 882 4db2f488d549755b6531e19ef0403201754374e1 /Users/rupertdance/AndroidStudioProjects/PayShareProject/PayShare/build/res/all/debug/layout/purchases_display.xml
+1373971596000 4389 c64ad5fa76f8669d3c0919cf7dea4d218a8349dd /Users/rupertdance/AndroidStudioProjects/PayShareProject/PayShare/build/res/all/debug/layout/activity_main.xml
+1373953633000 351 5ea6a9b0134808737176a19501c12dfad19bf5de /Users/rupertdance/AndroidStudioProjects/PayShareProject/PayShare/build/res/all/debug/menu/main.xml
+1373953634000 12711 ef9d1352ab11a508250415868ab337b4119d9703 /Users/rupertdance/AndroidStudioProjects/PayShareProject/PayShare/build/res/all/debug/drawable-xxhdpi/ic_launcher.png
+1374211730000 7917 463b0692bdc5bd3fa74c73fe4024cd335d1cb920 /Users/rupertdance/AndroidStudioProjects/PayShareProject/PayShare/build/res/all/debug/layout/activity_test.xml

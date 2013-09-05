@@ -1,0 +1,23 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1375159943000 1641 b7f258fa95f5935d197e2ba025c4dd42c818558d /Users/rupertdance/AndroidStudioProjects/PayShareProject/PayShare/build/classes/debug/radance/payshare/Controller/PaymentController.class
+1374210267000 1110 864d034585db0a0eececd0458660192bb5dd75df /Users/rupertdance/AndroidStudioProjects/PayShareProject/PayShare/build/classes/debug/radance/payshare/R$id.class
+1374206811000 658 b26dc5411ac9d9470a98b155eedb5f94283b84bd /Users/rupertdance/AndroidStudioProjects/PayShareProject/PayShare/build/classes/debug/radance/payshare/R$string.class
+1374144562000 809 c7e4c6116711f66d8bad8e153dd1c6e29d8bd053 /Users/rupertdance/AndroidStudioProjects/PayShareProject/PayShare/build/classes/debug/radance/payshare/View/MainActivity$3.class
+1374144562000 812 adf58d8da04dd835709387b0dc59304c0534f0f0 /Users/rupertdance/AndroidStudioProjects/PayShareProject/PayShare/build/classes/debug/radance/payshare/View/MainActivity$1.class
+1374206811000 425 bfea00aaf7abf6332b0a074f78647da98c92bf0a /Users/rupertdance/AndroidStudioProjects/PayShareProject/PayShare/build/classes/debug/radance/payshare/R$style.class
+1374211731000 4161 cad0269cc24a9635c07a5dff2e3e95f680dbc529 /Users/rupertdance/AndroidStudioProjects/PayShareProject/PayShare/build/classes/debug/radance/payshare/View/MainActivity.class
+1373953636000 455 7a29c0d7c74be60b17508bdc51d381d159779841 /Users/rupertdance/AndroidStudioProjects/PayShareProject/PayShare/build/classes/debug/radance/payshare/R$dimen.class
+1374206811000 657 99dc0a7b9ffeea5f810a1e506ad5cf87e1c474ca /Users/rupertdance/AndroidStudioProjects/PayShareProject/PayShare/build/classes/debug/radance/payshare/R.class
+1373953636000 334 13f0c4c2b745589daa5cb2a1d8fd0ecf5c19197c /Users/rupertdance/AndroidStudioProjects/PayShareProject/PayShare/build/classes/debug/radance/payshare/R$attr.class
+1374141636000 1653 cea5f568ae583d3ad5618f2e59e177ef43f5484e /Users/rupertdance/AndroidStudioProjects/PayShareProject/PayShare/build/classes/debug/radance/payshare/Model/Payment.class
+1369432937000 490914 3fe75433da602500cc71fcc1c46e5550291dd45d /Applications/Android Studio.app/sdk/extras/android/m2repository/com/android/support/support-v4/13.0.0/support-v4-13.0.0.jar
+1374156696000 1130 05b77cb93726229abea3eac3a3cc885a7888e4c0 /Users/rupertdance/AndroidStudioProjects/PayShareProject/PayShare/build/classes/debug/radance/payshare/Controller/SystemManager.class
+1373961191000 1134 c730b46890778aa2ddb9eec1fc1d9b090cbbc1ab /Users/rupertdance/AndroidStudioProjects/PayShareProject/PayShare/build/classes/debug/radance/payshare/Model/User.class
+1374151553000 423 f48fb9dfbcddf311268a8120cb3fd80c6eaa07e2 /Users/rupertdance/AndroidStudioProjects/PayShareProject/PayShare/build/classes/debug/radance/payshare/R$menu.class
+1374156696000 1271 d1315f4a8e8b6aafb1b480063ce159bf24a14c9a /Users/rupertdance/AndroidStudioProjects/PayShareProject/PayShare/build/classes/debug/radance/payshare/View/DisplayPurchases.class
+1374144562000 812 12e7234e0bd83f145ccb80108c525e7eb269597d /Users/rupertdance/AndroidStudioProjects/PayShareProject/PayShare/build/classes/debug/radance/payshare/View/MainActivity$2.class
+1373953636000 401 9b77676c8f1c455b9f386ada23555dc332c881cf /Users/rupertdance/AndroidStudioProjects/PayShareProject/PayShare/build/classes/debug/radance/payshare/R$drawable.class
+1374151553000 518 c104342375493a2209a10fd249a28f0d5f0107b5 /Users/rupertdance/AndroidStudioProjects/PayShareProject/PayShare/build/classes/debug/radance/payshare/R$layout.class
+1373953636000 341 ba8c94db59d5feb1d1a98b6e790a09bd2a615eb0 /Users/rupertdance/AndroidStudioProjects/PayShareProject/PayShare/build/classes/debug/radance/payshare/BuildConfig.class

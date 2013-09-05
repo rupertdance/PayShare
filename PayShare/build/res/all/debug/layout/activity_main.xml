@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Rupe Balance"
+            android:id="@+id/rupeDisplay"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="11dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="$xxx"
+            android:id="@+id/rupeCash"
+            android:textColor="#302cff"
+            android:layout_below="@+id/rupeDisplay"
+            android:layout_alignLeft="@+id/rupeDisplay"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Jess Balance"
+            android:id="@+id/jessDisplay"
+            android:layout_marginRight="13dp"
+            android:layout_above="@+id/rupeCash"
+            android:layout_alignParentRight="true"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="$xxx"
+            android:id="@+id/jessCash"
+            android:textColor="#ff32c4"
+            android:layout_alignTop="@+id/rupeCash"
+            android:layout_alignLeft="@+id/jessDisplay"
+            android:layout_marginLeft="10dp"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rupe Purchase"
+            android:id="@+id/rupePurchase"
+            android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/rupeDisplay"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jess Purchase"
+            android:id="@+id/jessPurchase"
+            android:layout_below="@+id/rupeEditText"
+            android:layout_alignLeft="@+id/jessEditText"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Equal Purchase:"
+            android:id="@+id/textView"
+            android:layout_above="@+id/rupeEditText"
+            android:layout_alignLeft="@+id/rupeEditText"/>
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/rupeEditText"
+            android:layout_marginBottom="10dp"
+            android:layout_above="@+id/rupePurchase"
+            android:layout_alignRight="@+id/rupePurchase"
+            />
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/jessEditText"
+            android:layout_alignTop="@+id/rupeEditText"
+            android:layout_alignLeft="@+id/textView2"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Equal Purchase:"
+            android:id="@+id/textView2"
+            android:layout_above="@+id/jessEditText"
+            android:layout_alignLeft="@+id/jessDisplay"/>
+
+</RelativeLayout>
+<!-- From: /Users/rupertdance/AndroidStudioProjects/PayShareProject/PayShare/src/main/res/layout/activity_main.xml -->

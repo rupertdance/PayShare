@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PayShare</string>
+    <string name="action_settings">Settings</string>
+    <string name="bought_textR">What did you buy, Rupe?</string>
+    <string name="bought_textJ">What did you buy, Jess?</string>
+    <string name="title_activity_display_purchases">Purchases</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="balance">Balance</string>
+    <string name="rupeColon">Rupe: $</string>
+
+</resources>

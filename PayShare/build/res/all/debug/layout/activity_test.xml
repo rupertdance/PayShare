@@ -1,0 +1,186 @@
+
+<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Old Purchases"
+                android:textSize="10dp"
+                android:textStyle="bold|italic"
+                android:id="@+id/previousPurchasesButton"
+                android:layout_gravity="right"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/rupeColon"
+                android:textStyle="bold"
+                android:id="@+id/rupeDisplay"
+                android:paddingLeft="20dp"
+                />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="$xxx"
+                android:id="@+id/rupeCash"
+                android:paddingLeft="1dp"
+                android:textColor="#ff4117ff"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Jess: $"
+                android:paddingLeft="10dp"
+                android:textStyle="bold"
+                android:id="@+id/jessDisplay"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="$xxx"
+                android:id="@+id/jessCash"
+                android:paddingLeft="1dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:textColor="#FA940F"/>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+    </LinearLayout>
+
+    <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:isScrollContainer="true"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    tools:context=".MainActivity">
+
+                <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:background="@android:color/darker_gray"/>
+
+
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="10dp"
+                            android:gravity="center_horizontal"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="-------- Equal Purchases --------"
+                            android:paddingBottom="10dp"
+                            android:textStyle="bold"
+                            android:id="@+id/textViewEP"
+                            android:layout_gravity="center"/>
+
+                    <EditText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:ems="15"
+                            android:hint="What did you buy, Rupe?"
+                            android:id="@+id/rupeBoughtName"/>
+
+                    <EditText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:inputType="number"
+                            android:ems="5"
+                            android:hint="Cost..."
+                            android:paddingTop="10dp"
+                            android:id="@+id/rupeEditText"
+                            android:layout_gravity="center"/>
+
+                    <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rupe Purchase"
+                            android:textStyle="bold"
+                            android:id="@+id/rupePurchase"
+                            android:textColor="#ff4117ff"
+                            android:layout_gravity="center" />
+
+                <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@android:color/darker_gray"/>
+
+
+                <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:ems="15"
+                        android:hint="What did you buy, Jess?"
+                        android:id="@+id/jessBoughtName"/>
+
+                    <EditText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:inputType="number"
+                            android:ems="5"
+                            android:hint="Cost..."
+                            android:id="@+id/jessEditText"
+                            android:layout_gravity="center"/>
+                    <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Jess Purchase"
+                            android:id="@+id/jessPurchase"
+                            android:textColor="#FA940F"
+                            android:textStyle="bold"
+                            android:layout_gravity="center"/>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="----------------------------------"
+                        android:layout_gravity="center"
+                        android:gravity="center_horizontal"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:id="@+id/textViewEndEP"
+                        android:textStyle="bold"/>
+
+
+
+
+            </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+<!-- From: file:/Users/rupertdance/AndroidStudioProjects/PayShareProject/PayShare/src/main/res/layout/activity_test.xml -->
